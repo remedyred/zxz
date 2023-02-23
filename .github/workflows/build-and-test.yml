@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build:
+    name: Build, lint, and Test
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build, test, and verify
+        uses: remedyred/release-please-action@v1.3.20
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PRERELEASE_ONLY: true
