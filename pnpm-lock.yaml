@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@snickbit/eslint-config': 1.3.8
-  '@snickbit/node-utilities': 4.4.17
+  '@snickbit/node-utilities': 4.4.20
   '@snickbit/out': 2.0.48
-  '@snickbit/utilities': 3.4.16
+  '@snickbit/utilities': 3.4.18
   '@types/node': 17.0.45
   eslint: 8.26.0
   fast-glob: 3.2.12
@@ -14,9 +14,9 @@ specifiers:
   typescript: 4.8.4
 
 dependencies:
-  '@snickbit/node-utilities': 4.4.17
+  '@snickbit/node-utilities': 4.4.20
   '@snickbit/out': 2.0.48
-  '@snickbit/utilities': 3.4.16
+  '@snickbit/utilities': 3.4.18
   fast-glob: 3.2.12
   lilconfig: 2.0.6
   picomatch: 2.3.1
@@ -167,12 +167,12 @@ packages:
       - typescript
     dev: true
 
-  /@snickbit/node-utilities/4.4.17:
-    resolution: {integrity: sha512-6L2FdZXIWVkAdR3+O6ByYUFkgc7caIOFdyRqCSQmLAHzbGs9NtSPbIiUkv1LgJazFdsQfCjQLFuLIHUHD0omCA==}
-    engines: {node: '>= 12'}
+  /@snickbit/node-utilities/4.4.20:
+    resolution: {integrity: sha512-P+JE5m4Y7f5PUDaEzeeJnn3ioK1o0Ph3OYs+03zZxbd0GPmkMtWYtBFy0hlZ3t9KyZbtwxCOVFcrKqNf4O3Pgw==}
+    engines: {node: '>= 14.17'}
     dependencies:
       '@snickbit/out': 2.0.48
-      '@snickbit/utilities': 3.4.16
+      '@snickbit/utilities': 3.4.18
       ansi-styles-template: 1.0.0
       cli-progress: 3.11.2
       is-wsl: 2.2.0
@@ -187,30 +187,16 @@ packages:
     dependencies:
       '@snickbit/ansi': 0.0.26
       '@snickbit/cycle': 1.0.13
-      '@snickbit/utilities': 3.4.16
+      '@snickbit/utilities': 3.4.18
       ansi-styles-template: 1.0.0
       browser-or-node: 2.0.0
       node-inspect-extracted: 1.1.0
       picomatch-browser: 2.2.6
     dev: false
 
-  /@snickbit/plural/1.0.10:
-    resolution: {integrity: sha512-CX6fMZKO+mwndHqhj359HoVv+mb6JXnf+YWvMTvPJ2JSyohYrW9O4gDS/hGuHYvq0kkkaYbu77krfVVo1xR8nw==}
-    engines: {node: '>= 12'}
-    dev: false
-
   /@snickbit/plural/1.0.12:
     resolution: {integrity: sha512-FQZkf/iMNsK9NLd2Xk7WiYy15xjeuIk7f7i1At6AAleP/ePxu31C+0jbTsLrqGv+m4KSxBxhp85fwQzksp+vbw==}
     engines: {node: '>= 14.17'}
-    dev: false
-
-  /@snickbit/utilities/3.4.16:
-    resolution: {integrity: sha512-EZJdF5RRwA/vSHB0xQy3AHwbc6W+f3Z1c6UDP+m4O57+u3Q227fDvtWbPhBCQqKBvXxcKhkqqjzAQRcD/X5F+A==}
-    engines: {node: '>= 12'}
-    dependencies:
-      '@snickbit/plural': 1.0.10
-      just-camel-case: 6.1.1
-      nanoid: 3.3.4
     dev: false
 
   /@snickbit/utilities/3.4.18:
