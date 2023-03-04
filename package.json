@@ -1,6 +1,6 @@
 {
 	"name": "zxz",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Dead simple JavaScript, ESM, and TypeScript scripting",
 	"author": "Snickbit",
 	"license": "MIT",
