@@ -29,7 +29,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@snickbit/node-utilities": "4.4.20",
+		"@snickbit/node-utilities": "4.7.1",
 		"@snickbit/out": "2.0.48",
 		"@snickbit/utilities": "3.4.20",
 		"fast-glob": "3.2.12",
